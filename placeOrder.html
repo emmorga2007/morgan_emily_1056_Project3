@@ -6,52 +6,73 @@
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
   	<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
   	<link rel="stylesheet" type="text/css" href="css/main.css" type="text/css" media="screen">
-    <title>My product index page</title>
+    <title>Lysol Brewing Company</title>
   </head>
   <body>
-    <main id="maincon">
+    <main class="contactpage">
     <header>
-      <nav>
-        <ul>
-          <li>HOME</li>
-          <li>OUR STORY</li>
-          <li>THE BEER</li>
+      <nav class="main-nav"> <!--main nav open -->
+        <h1 class="hidden">Main Nav</h1>
+        <ul class="navoptions">
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="ourStory.html">OUR STORY</a></li>
+          <li><a href="theBeer.html">THE BEER</a></li>
         </ul>
         <div>
           <img src="images/logo.png" alt="logo">
         </div>
-        <ul>
-          <li>THE SECRET</li>
-          <li>PLACE AN ORDER</li>
+        <ul class="navoptions">
+          <li><a href="theSecret.html">THE SECRET</li>
+          <li><a href="placeOrder.html" class="active">PLACE AN ORDER</a></li>
         </ul>
-      </nav>
+      </nav> <!--main nav close -->
     </header>
 
-    <div>
-      <p>62 Albert Street</p>
-      <p>Strathroy, Ontario, Canada</p>
-      <p>N7G 1V5</p>
-      <p>Call Us: 226-564-1815</p>
+    <div class="headertext">
+      <h1>Thankyou for Supporting Local</h1>
     </div>
 
-    <div>
-      <p>Hours:</p>
-      <p>Thursday 12pm - 6pm</p>
-      <p>Friday 12pm - 6pm</p>
-      <p>Saturday 11am - 4pm</p>
-    </div>
+    <div class="info-contact"><!-- main content area open -->
+      <div class="store-info"> <!-- store contact info open -->
+        <div class="address-info">
+          <p>62 Albert Street</p>
+          <p>Strathroy, Ontario, Canada</p>
+          <p>N7G 1V5</p>
+          <p>Call Us: 226-564-1815</p>
+        </div>
+        <div class="hours-info">
+          <p>Hours:</p>
+          <p>Thursday 12pm - 6pm</p>
+          <p>Friday 12pm - 6pm</p>
+          <p>Saturday 11am - 4pm</p>
+        </div>
+      </div><!-- store contact info close -->
 
-    <div>
-      
-    </div>
 
-    <footer>
+        <div class="contact"> <!-- contact form container -->
+          <div class="contact-title"><!-- contact form title -->
+            <h1>Place An Order</h1>
+            <h2>We are always ready to serve you</h2>
+          </div><!-- contact form title close-->
+        <div class="contact-form"><!-- contact form input-->
+          <form id="contact-form" action="index.html" method="post">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
+            <input type="email" name="email" class="form-control" placeholder="Your E-mail" required><br>
+            <textarea name="message" class="form-control" placeholder="Your Message" rows="4" cols="40" required></textarea><br>
+            <input type="submit" class="form-control submit" value="Send Message">
+          </form>
+        </div><!-- contact form input close-->
+      </div><!-- contact form container close -->
+    </div><!-- main content area close -->
+
+
+    <footer><!-- main footer open -->
         <img src="images/logo.png" alt="logo">
-        <div>
+        <div class="footertext">
           <p>&copy; 2020 COPYRIGHT LYSOL BREWING CO.</p>
           <p>62 ALBERT STREET, STRATHROY, ON. CANADA</p>
         </div>
-    </footer>
+    </footer><!-- main footer close-->
     </main>
     <script type="text/javascript"></script>
   </body>
