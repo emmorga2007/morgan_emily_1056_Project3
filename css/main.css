@@ -1,1 +1,231 @@
+/*universal*/
+body{
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
 
+.hidden{
+  visibility: hidden;
+}
+
+/*header/nav open */
+
+.main-nav{
+  width: 1080px;
+  height: 171px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+nav img{
+  height: 171px;
+}
+
+.navoptions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+}
+
+.navoptions li a {
+  color:#707070;
+  padding: 0px 10px 0px 10px;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.navoptions a:hover {
+  background-color: #707070;
+  color: white;
+}
+
+.navoptions a.active {
+  background-color: none;
+  color: #D18D23;
+}
+
+/*header/nav close */
+
+/* home page open */
+
+.page-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 700px;
+}
+
+.text-content{
+
+}
+.page-content img{
+    height: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+.page-content h1{
+  font-size: 50px;
+  margin-left: 60px;
+  color: #707070;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.page-content h2{
+  margin-left: 60px;
+  padding: 10px;
+  font-size: 30px;
+  color: #707070;
+
+}
+
+.made-text {
+  margin-left: 100px;
+  padding: 40px 0px 40px 0px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #707070;
+
+}
+
+.owned-text {
+  margin-left: 150px;
+  padding: 40px 0px 40px 0px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #707070;
+}
+
+
+/*home page close*/
+
+/*contact form page open */
+
+.headertext{
+  padding: 20px;
+  margin: 0 50px 50px 50px;
+  text-align: center;
+  font-size: 53px;
+  font: Black Italic 40px/53px Segoe UI;
+  font-style: italic;
+  color:#707070;
+  border-top:3px solid #E4E5E5;
+  border-bottom:3px solid #E4E5E5;
+}
+
+.info-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #707070;
+}
+
+.store-info {
+  line-height: 28px;
+  font-size: 19px;
+  margin-top: 200px;
+  margin-left: 80px;
+}
+
+.hours-info{
+  margin-top:20px;
+}
+
+
+
+.contact{
+  background:url(file:///C:/Users/emily/Documents/morgan_emily_1056_Project3/images/contactbkg.png);
+  width: 900px;
+  height: 480px;
+  margin: 0 auto;
+  padding: 100px 50px 100px 50px;
+  text-align: center;
+}
+
+.contact-title{
+  margin: 10px;
+  color: black;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+  margin: 20px;
+  font-size: 60px;
+  line-height: 50px;
+  color: #707070;
+}
+
+.contact-title h2 {
+  font-size: 19px;
+  line-height: 20px;
+  color: #707070;
+}
+
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control{
+  color: black;
+  width: 600px;
+  background: rgb(225, 225, 225, 0.5);
+  border: none;
+  outline: none;
+  font-size: 18px;
+  margin-bottom: 16px
+}
+
+input{
+  height: 45px;
+}
+
+form .submit {
+  background: black;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 25px;
+
+}
+
+form .submit {
+  background-color: black;
+  cursor: pointer;
+}
+
+/*contact form page close */
+
+
+/* footer open */
+
+footer{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+footer img{
+  height: 54px;
+}
+
+.footertext {
+  font-size: 12px;
+  padding-left: 15px;
+  padding-top: 10px;
+  color: #707070;
+}
+
+
+/*footer close*/
