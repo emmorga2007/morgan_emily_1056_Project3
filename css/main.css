@@ -44,7 +44,7 @@ nav img{
   color: white;
 }
 
-.navoptions a.active {
+.navoptions .active {
   background-color: none;
   color: #D18D23;
 }
@@ -156,9 +156,9 @@ nav img{
   color: #707070;
 }
 
-/* Our story page open */
+/* Our story page close */
 
-/* The Beer */
+/* The Beer page open */
 
 .beer-list{
   height: 370px;
@@ -222,7 +222,80 @@ nav img{
   color: #A2A2A2 ;
 }
 
-/* The Beer */
+/* The Beer close */
+
+/* The secret open */
+
+
+
+.secret-container{
+  margin: 0px 100px 100px 100px;
+  padding: 90px 60px 90px 60px;
+  background-color: rgba(231, 231, 231, 0.5);
+}
+
+.condition-title{
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  color: #707070;
+}
+
+.word-decor{
+  font-size: 45px;
+  font-weight: 900;
+  font-style: italic;
+  color: #707070;
+}
+
+.condition-text{
+  font-size: 35px;
+  width: 800px;
+  padding: 20px 0px 20px 0px;
+  line-height: 47px;
+  color: #707070;
+}
+
+.descript1{
+  color: #707070;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: italic;
+  color: #707070;
+  margin: 0px 0px 20px 20px;
+}
+
+.descript2{
+  color: #707070;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: italic;
+  color: #707070;
+  margin: 0px 0px 20px 40px;
+}
+
+.descript3{
+  color: #707070;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: italic;
+  color: #707070;
+  margin: 0px 0px 20px 60px;
+}
+
+.text-badge-row {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.badge img{
+  height: 250px;
+}
+
+/* the secret close */
 
 /*contact form page open */
 
@@ -256,8 +329,6 @@ nav img{
   margin-top:20px;
 }
 
-
-
 .contact{
   background:url(file:///C:/Users/emily/Documents/morgan_emily_1056_Project3/images/contactbkg.png);
   width: 900px;
@@ -274,14 +345,14 @@ nav img{
   transition: all 4s ease-in-out;
 }
 
-.contact-title h1 {
+.contact-title h2 {
   margin: 20px;
   font-size: 60px;
   line-height: 50px;
   color: #707070;
 }
 
-.contact-title h2 {
+.contact-title h3 {
   font-size: 19px;
   line-height: 20px;
   color: #707070;
