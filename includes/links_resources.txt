@@ -1,0 +1,51 @@
+
+
+Resources
+
+http://strathroybrewingcompany.ca/ (product #1 content)
+https://www.lysol.ca/en/our-mission/ (product #2 content)
+https://www.youtube.com/watch?v=GMH3rNTN4IQ (making a contact form)
+https://www.youtube.com/watch?v=pzNAZu2KvtY (editing links)
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation (css3 animation and transitions)
+
+Preliminary Style Guide:
+
+Font: Segoe U1
+Color: hex#707070 (grey)
+Box-backgrounds: #757575
+Site background color: white
+Accent color: #D18D23 (yellow)
+
+
+Borrowed Content From Strathroy Brewing Company Website:
+
+Page 2. Our story
+Our Inspiration
+In 1812, the strong Canadian spirit prevailed, protecting our lands from invasion and restoring peace with our American neighbours in 1815. Thankfully, this peace has endured on our land for nearly 200 years and this calls for a celebration
+Our Bottles
+At Strathroy Brewing Company we try to make the finest beer and need to use a bottle of equal quality. We use the amber “Industry Standard” bottle to help protect the beer against light damage. Also, these bottles will go on to be re-used 15 to 20 times, making it a wise choice to help reduce waste.
+
+
+Page 3. The Beer
+1812 Independence Pale Ale --  it pairs so well with hamburgers, steak, spicy, sweet and savoury.
+Framboise -- is a gluten-free ale brewed with a blend of raspberries, blueberries and blackberries, with 5.5 per cent alcohol
+Lockstock -- is a light, 4 per cent alcohol, Australian-style sparkling ale with aromas of citrus and passion fruit. It too is gluten-free
+1815 Hop Happy Haymaker Double IPA, 
+1815 Smokin’ Cannon Stout, 
+1815 Peace Wheat 
+1815 Longwood Lager
+
+
+Page 4.The Secret
+Bottle conditioning allows the beer to mature, develop character and unrivaled effervescence. Our beer is unfiltered, unpasteurized to preserve delicate flavours and aromas and we use no preservatives other than hops. Since yeast naturally consume oxygen from the packaging process, this enhances shelf life and protects character, flavour and aroma.
+
+Page 4. Place An Order
+62 Albert Street
+Strathroy, Ontario, Canada
+N7G 1V5
+Call Us: 226-564-1815
+Hours:
+Thursday 12pm - 6pm
+Friday 12pm - 6pm
+Saturday 11am - 4pm
+
