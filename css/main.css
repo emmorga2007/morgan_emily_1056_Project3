@@ -52,58 +52,177 @@ nav img{
 /*header/nav close */
 
 /* home page open */
+.sitecon {
+  height: 300px;
+}
 
-.page-content {
+
+.container{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.container span{
+  text-transform: uppercase;
+  display: block;
+}
+
+.text1{
+  color: #707070;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  padding: 0px 0px 30px 0px;
+  background: white;
+  position: relative;
+  animation: text 3s 1;
+}
+
+.text2{
+  font-size: 30px;
+  color: #707070;
+}
+
+.text3{
+  color: #707070;
+  font-size: 20px;
+  padding: 5px;
+}
+
+@keyframes text{
+  0%{
+    color: white;
+    margin-bottom: -90px;
+}
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -90px;
+}
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -90px;
+  }
+
+}
+
+/*home page close*/
+
+/* Our story page open */
+
+#maincon {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.three-beer-images img{
+  height: 223px;
+  width: 267px;
+}
+
+.three-beer-images{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 700px;
 }
 
-.text-content{
-
-}
-.page-content img{
-    height: 700px;
-    margin: 0;
-    padding: 0;
+.story-paragraphs{
+  display: flex;
+  flex-direction: row;
 }
 
-.page-content h1{
-  font-size: 50px;
-  margin-left: 60px;
-  color: #707070;
+.paragraph{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.paragraph h2{
+  font-size: 35px;
+  padding-bottom: 10px;
   font-weight: bold;
-  font-style: italic;
+  color: #707070;
 }
 
-.page-content h2{
-  margin-left: 60px;
-  padding: 10px;
-  font-size: 30px;
+.paragraph p{
+  font-size: 19px;
+  line-height: 22px;
+  color: #707070;
+}
+
+/* Our story page open */
+
+/* The Beer */
+
+.beer-list{
+  height: 370px;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px 20px 20px;
+  border-bottom: 2px solid #707070;
+}
+
+.beer-list img{
+  height: 370px;
+}
+
+.beer-list ul{
+  padding: 15px;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #707070
+}
+
+.reviews{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reviewer{
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  width: 400px;
+  background-color: #F5F5F5;
+  margin-left: 8px;
+  margin-top: 25px;
+  padding: 5px;
+  border-left: 4px solid #707070;
+
+}
+
+.reviewer img{
+  height: 78px;
+}
+
+.review-comment{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.comment{
   color: #707070;
 
 }
 
-.made-text {
-  margin-left: 100px;
-  padding: 40px 0px 40px 0px;
-  font-size: 40px;
-  font-weight: 500;
-  color: #707070;
-
+.date{
+  font-size: 12px;
+  line-height: 20px;
+  color: #A2A2A2 ;
 }
 
-.owned-text {
-  margin-left: 150px;
-  padding: 40px 0px 40px 0px;
-  font-size: 40px;
-  font-weight: 500;
-  color: #707070;
-}
-
-
-/*home page close*/
+/* The Beer */
 
 /*contact form page open */
 
